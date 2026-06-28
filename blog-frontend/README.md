@@ -1,16 +1,137 @@
-# React + Vite
+# ✍️ BlogSpace - Full Stack Blog Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, full-stack blogging platform where users can read, write, and share stories. Built with Django REST Framework and React.
 
-Currently, two official plugins are available:
+![BlogSpace](blog-frontend/src/assets/hero.gif)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
+- **Frontend:** Coming soon (Vercel)
+- **Backend API:** Coming soon (Render)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 👤 Authentication
+- User registration and login
+- JWT token-based authentication
+- Auto token refresh
+- Protected routes
 
-## Expanding the Oxlint configuration
+### 📝 Blog Posts
+- Create, edit, delete blog posts
+- Rich markdown editor
+- Cover image upload with drag & drop
+- Category tagging
+- Reading time calculation
+- View counter
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### 💬 Comments
+- Add comments on posts
+- Nested replies
+- Delete own comments
+
+### ❤️ Interactions
+- Like / Unlike posts
+- Bookmark / Save posts
+- Share post link
+- Search posts by title, category or author
+
+### 🎨 UI/UX
+- Responsive design (mobile + desktop)
+- Dark / Light mode toggle
+- Animated hero section
+- Smooth hover animations on cards
+- Category filter pills
+- Pagination
+
+## 🛠️ Tech Stack
+
+### Backend
+| Technology | Purpose |
+|------------|---------|
+| Django 6.0 | Web framework |
+| Django REST Framework | REST API |
+| SimpleJWT | JWT Authentication |
+| SQLite (dev) | Local database |
+| PostgreSQL (prod) | Production database |
+| Pillow | Image handling |
+| Django CORS Headers | CORS management |
+
+### Frontend
+| Technology | Purpose |
+|------------|---------|
+| React 19 | UI framework |
+| Vite | Build tool |
+| Tailwind CSS | Styling |
+| React Router v6 | Client-side routing |
+| Axios | HTTP requests |
+| React Hot Toast | Notifications |
+| MD Editor | Rich text editor |
+
+
+## 🚀 Getting Started
+
+### Backend Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/ari2738/blog-platform.git
+cd blog-platform
+
+# Create virtual environment
+python -m venv venv
+venv\Scripts\activate  # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run migrations
+python manage.py migrate
+
+# Create superuser
+python manage.py createsuperuser
+
+# Start server
+python manage.py runserver 8001
+```
+
+### Frontend Setup
+
+```bash
+cd blog-frontend
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+```
+
+## 📡 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/auth/register/` | Register user |
+| POST | `/api/auth/login/` | Login user |
+| POST | `/api/auth/token/refresh/` | Refresh token |
+| GET | `/api/auth/profile/` | Get profile |
+| GET | `/api/posts/` | List all posts |
+| POST | `/api/posts/` | Create post |
+| GET | `/api/posts/:id/` | Get post detail |
+| PUT | `/api/posts/:id/` | Update post |
+| DELETE | `/api/posts/:id/` | Delete post |
+| GET | `/api/posts/:id/comments/` | Get comments |
+| POST | `/api/posts/:id/comments/` | Add comment |
+| POST | `/api/posts/:id/like/` | Like/Unlike post |
+| GET | `/api/users/:id/posts/` | Get user posts |
+
+## 👩‍💻 Developer
+
+**Abirami S**
+- GitHub: [@ari2738](https://github.com/ari2738)
+- LinkedIn: [Abirami Shanmugam](https://linkedin.com/in/abirami-shanmugam-7551a12b6)
+
+## 📄 License
+
+This project is built for Thiranex Internship Program.
+
+© 2026 BlogSpace. All rights reserved.
