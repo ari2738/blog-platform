@@ -7,6 +7,7 @@ class Post(models.Model):
     content = models.TextField()
     cover_image = models.ImageField(upload_to='posts/', blank=True, null=True)
     category = models.CharField(max_length=100, blank=True)
+    views = models.PositiveIntegerField(default=0)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
