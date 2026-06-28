@@ -1,7 +1,10 @@
-✍️ BlogSpace - Full Stack Blog Platform
+✍️ BlogSpace
+
+Full Stack Blog Platform
 A modern, full-stack blogging platform where users can read, write, and share stories. Built with Django REST Framework and React.
 
 🌐 Live Demo
+
 Frontend: Coming soon (Vercel)
 Backend API: Coming soon (Render)
 
@@ -83,34 +86,6 @@ Axios	HTTP requests
 React Hot Toast	Notifications
 MD Editor	Rich text editor
 
-
-🚀 Getting Started
-Backend Setup
-# Clone the repo
-git clone https://github.com/ari2738/blog-platform.git
-cd blog-platform
-
-# Create virtual environment
-python -m venv venv
-venv\Scripts\activate  # Windows
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run migrations
-python manage.py migrate
-
-# Create superuser
-python manage.py createsuperuser
-
-# Start server
-python manage.py runserver 8001
-Frontend Setup
-cd blog-frontend
-
-# Install dependencies
-npm install
-
 # Start dev server
 npm run dev
 📡 API Endpoints
@@ -128,12 +103,16 @@ GET	/api/posts/:id/comments/	Get comments
 POST	/api/posts/:id/comments/	Add comment
 POST	/api/posts/:id/like/	Like/Unlike post
 GET	/api/users/:id/posts/	Get user posts
+
 👩‍💻 Developer
+
 Abirami S
 
 GitHub: @ari2738
 LinkedIn: Abirami Shanmugam
+
 📄 License
+
 This project is built for Thiranex Internship Program.
 
 © 2026 BlogSpace. All rights reserved.
