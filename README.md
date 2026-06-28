@@ -21,35 +21,47 @@ Backend API: Coming soon (Render)
 
 
 ✨ Features
+
 👤 Authentication
+
 User registration and login
 JWT token-based authentication
 Auto token refresh
 Protected routes
+
 📝 Blog Posts
+
 Create, edit, delete blog posts
 Rich markdown editor
 Cover image upload with drag & drop
 Category tagging
 Reading time calculation
 View counter
+
 💬 Comments
+
 Add comments on posts
 Nested replies
 Delete own comments
+
 ❤️ Interactions
+
 Like / Unlike posts
 Bookmark / Save posts
 Share post link
 Search posts by title, category or author
+
 🎨 UI/UX
+
 Responsive design (mobile + desktop)
 Dark / Light mode toggle
 Animated hero section
 Smooth hover animations on cards
 Category filter pills
 Pagination
+
 🛠️ Tech Stack
+
 Backend
 Technology	Purpose
 Django 6.0	Web framework
@@ -59,7 +71,9 @@ SQLite (dev)	Local database
 PostgreSQL (prod)	Production database
 Pillow	Image handling
 Django CORS Headers	CORS management
+
 Frontend
+
 Technology	Purpose
 React 19	UI framework
 Vite	Build tool
@@ -68,6 +82,8 @@ React Router v6	Client-side routing
 Axios	HTTP requests
 React Hot Toast	Notifications
 MD Editor	Rich text editor
+
+
 🚀 Getting Started
 Backend Setup
 # Clone the repo
