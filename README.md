@@ -7,7 +7,7 @@ A modern, full-stack blogging platform where users can read, write, and share st
 
 live URLs:
 
-🌐 Frontend: blogspace-63a.pages.dev
+🌐 Frontend: https://blogspace-63a.pages.dev
 🔧 Backend: https://blogspace-api-rhuu.onrender.com
 
 **screenshots**
