@@ -88,23 +88,6 @@ Axios	HTTP requests
 React Hot Toast	Notifications
 MD Editor	Rich text editor
 
-# Start dev server
-npm run dev
-📡 API Endpoints
-Method	Endpoint	Description
-POST	/api/auth/register/	Register user
-POST	/api/auth/login/	Login user
-POST	/api/auth/token/refresh/	Refresh token
-GET	/api/auth/profile/	Get profile
-GET	/api/posts/	List all posts
-POST	/api/posts/	Create post
-GET	/api/posts/:id/	Get post detail
-PUT	/api/posts/:id/	Update post
-DELETE	/api/posts/:id/	Delete post
-GET	/api/posts/:id/comments/	Get comments
-POST	/api/posts/:id/comments/	Add comment
-POST	/api/posts/:id/like/	Like/Unlike post
-GET	/api/users/:id/posts/	Get user posts
 
 👩‍💻 Developer
 
