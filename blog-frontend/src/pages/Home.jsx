@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import API from '../api/axios'
 import PostCard from '../components/PostCard'
 import toast from 'react-hot-toast'
+import heroGif from '../assets/hero.gif'
 
 const CATEGORIES = ['All', 'Technology', 'Travel', 'Food', 'Health', 'Business', 'Lifestyle', 'Education']
 
@@ -74,7 +75,7 @@ const Home = () => {
               {/* Illustration */}
               <div className="animate-float flex-1 flex justify-center">
                 <img
-                  src="/src/assets/hero.gif"
+                  src={heroGif}
                   alt="Blog illustration"
                   className="w-80 h-72 object-contain drop-shadow-xl"
                 />
