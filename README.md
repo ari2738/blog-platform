@@ -5,8 +5,10 @@ A modern, full-stack blogging platform where users can read, write, and share st
 
 🌐 Live Demo
 
-Frontend: Coming soon (Vercel)
-Backend API: Coming soon (Render)
+live URLs:
+
+🌐 Frontend: blogspace-63a.pages.dev
+🔧 Backend: https://blogspace-api-rhuu.onrender.com
 
 **screenshots**
 
