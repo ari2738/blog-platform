@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-  baseURL: 'http://10.112.185.124:8001/api',
+  baseURL: 'https://blogspace-api-rhuu.onrender.com/api',
 })
 
 API.interceptors.request.use((config) => {
@@ -21,7 +21,7 @@ API.interceptors.response.use(
       const refresh = localStorage.getItem('refresh_token')
       if (refresh) {
         try {
-          const res = await axios.post('http://10.112.185.124:8001/api/auth/token/refresh/', {
+          const res = await axios.post('https://blogspace-api-rhuu.onrender.com/api/auth/token/refresh/', {
             refresh,
           })
           localStorage.setItem('access_token', res.data.access)
