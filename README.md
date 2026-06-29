@@ -93,8 +93,8 @@ MD Editor	Rich text editor
 
 Abirami S
 
-GitHub: @ari2738
-LinkedIn: Abirami Shanmugam
+GitHub: https://github.com/ari2738
+LinkedIn: https://linkedin.com/in/abirami-shanmugam-7551a12b6
 
 📄 License
 
